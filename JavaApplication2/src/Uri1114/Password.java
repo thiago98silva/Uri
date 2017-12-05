@@ -9,7 +9,7 @@ package Uri1114;
  *
  * @author thiago98.silva
  */
-public class Senha {
+public class Password {
     public boolean verificaSenha(int senha){
         if(senha == 2002){
             System.out.println("Acesso Permitido");

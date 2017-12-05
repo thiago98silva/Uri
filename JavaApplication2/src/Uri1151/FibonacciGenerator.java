@@ -9,7 +9,7 @@ package Uri1151;
  *
  * @author thiago98.silva
  */
-public class Fibonacci {
+public class FibonacciGenerator {
      public String gerarFibonacci(int numero){
          String sequencia = null;
         int n1 = 1, n2 = 0;

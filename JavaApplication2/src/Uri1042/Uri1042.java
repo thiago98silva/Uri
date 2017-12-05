@@ -13,7 +13,7 @@ import java.util.Scanner;
  */
 public class Uri1042 {
     public static void run() {
-        ArraySort arraySort = new ArraySort();
+        SortArray arraySort = new SortArray();
         int[] sortNumbers, unsortNumbers;
         
         Scanner input = new Scanner(System.in);

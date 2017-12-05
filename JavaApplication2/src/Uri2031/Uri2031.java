@@ -15,7 +15,7 @@ public class Uri2031 {
     public static void run(){
         int i;
         int j, vencedor;
-        pedraPapelAtaque jokenpo = new pedraPapelAtaque();
+        AttackPaperRock jokenpo = new AttackPaperRock();
         Scanner input = new Scanner(System.in);
         String[] sinal = new String[2];
         String qntd = input.nextLine();

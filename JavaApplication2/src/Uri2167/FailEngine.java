@@ -9,7 +9,7 @@ package Uri2167;
  *
  * @author thiago98.silva
  */
-public class falhaDoMotor {
+public class FailEngine {
     public int falha(int[]rotacoesMinutos){
         int i,c=1, caso=0;
         for(i=1;i<rotacoesMinutos.length;i++){

@@ -11,23 +11,23 @@ import java.util.Scanner;
  *
  * @author thiago98.silva
  */
-public class CorridaLesmas {
-    public int[] cadastrarLesmas(int quantidade){
+public class CrabRace {
+    public int[] cadastrarCarangueijos(int quantidade){
         int i;
-        int[] lesmas = new int[quantidade];
+        int[] carangueijos = new int[quantidade];
          Scanner input = new Scanner(System.in);    
         for(i=0;i<quantidade;i++){
-            System.out.println("Digite a velocidadeda lesma "+ (i+1) + ":");
-            lesmas[i]= input.nextInt();
+            System.out.println("Digite a velocidadeda carangueijo "+ (i+1) + ":");
+            carangueijos[i]= input.nextInt();
         }
-        return lesmas;
+        return carangueijos;
     }
     
-    public int verificarVelocidades(int[] lesmas){
+    public int verificarVelocidades(int[] carangueijos){
         int velocidade=0,i;
-        for(i=0;i<lesmas.length;i++){
-            if(lesmas[i]>velocidade){
-                velocidade=lesmas[i];
+        for(i=0;i<carangueijos.length;i++){
+            if(carangueijos[i]>velocidade){
+                velocidade=carangueijos[i];
             }
         }
         

@@ -9,7 +9,7 @@ package Uri1045;
  *
  * @author thiago98.silva
  */
-public class DefinirTriangulo {
+public class TriangleDefine {
     public String verifica(double a, double b , double c){
        double[] numeros = {a, b,c}; 
        for (int i = 1; i < numeros.length; i++) {

@@ -15,12 +15,12 @@ public class Uri1789 {
     public static void run() {
         int quantidade=0, veloz;
         Scanner input = new Scanner(System.in);
-        CorridaLesmas corridaLesmas = new CorridaLesmas();
-        System.out.println("Digite o número de lesmas nesse grupo:");
+        CrabRace corridaCarangueijos = new CrabRace();
+        System.out.println("Digite o número de Carangueijos nesse grupo:");
         quantidade = input.nextInt();
-        int[] lesmas = new int[quantidade];
-        lesmas = corridaLesmas.cadastrarLesmas(quantidade);
+        int[] carangueijos = new int[quantidade];
+        carangueijos = corridaCarangueijos.cadastrarCarangueijos(quantidade);
         
-        System.out.println("A lesmas mais veloz do grupo é nível: " + corridaLesmas.verificarVelocidades(lesmas));
+        System.out.println("A carangueijos mais veloz do grupo é nível: " + corridaCarangueijos.verificarVelocidades(carangueijos));
     }
 }

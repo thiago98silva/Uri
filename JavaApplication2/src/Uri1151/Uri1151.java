@@ -13,7 +13,7 @@ import java.util.Scanner;
  */
 public class Uri1151 {
     public static void run() {
-        Fibonacci fibonacci = new Fibonacci();
+        FibonacciGenerator fibonacci = new FibonacciGenerator();
         
         Scanner input = new Scanner(System.in);
         int numero = input.nextInt();

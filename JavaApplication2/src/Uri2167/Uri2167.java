@@ -14,7 +14,7 @@ import java.util.Scanner;
 public class Uri2167 {
     public static void run(){
         int i, caso=0;
-        falhaDoMotor motor = new falhaDoMotor();
+        FailEngine motor = new FailEngine();
         Scanner input = new Scanner(System.in);
         int medidasVelocidade; //1<N<=100
         boolean continuar = true;

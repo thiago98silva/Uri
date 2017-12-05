@@ -11,7 +11,7 @@ import java.util.Scanner;
  *
  * @author thiago98.silva
  */
-public class Pum {
+public class SequenceGenerator {
         public String gerarSequencia(int numero){
             StringBuilder builder = new StringBuilder();
             int cont = 0;

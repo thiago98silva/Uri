@@ -11,7 +11,7 @@ import java.util.Scanner;
  *
  * @author thiago98.silva
  */
-public class EscolhaDasMusicas {
+public class MusicChosen {
     public int lerQuantidade() {
         Scanner reader;
         reader = new Scanner(System.in);

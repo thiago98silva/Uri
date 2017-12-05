@@ -13,7 +13,7 @@ import java.util.Scanner;
  */
 public class Uri2582 {
     public static void run(){
-        EscolhaDasMusicas musica = new EscolhaDasMusicas();
+        MusicChosen musica = new MusicChosen();
          String musicaEscolhida = "";
         int[] botoes = new int [2];
         Scanner input = new Scanner(System.in);

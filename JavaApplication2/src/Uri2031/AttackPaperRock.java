@@ -9,7 +9,7 @@ package Uri2031;
  *
  * @author thiago98.silva
  */
-public class pedraPapelAtaque {
+public class AttackPaperRock {
     public int verificarVencedor(String[] sinal) {
         String[] forma = {"pedra", "papel", "ataque"};
         int jogador1, jogador2;

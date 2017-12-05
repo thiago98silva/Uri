@@ -13,7 +13,7 @@ import java.util.Scanner;
  */
 public class Uri1114 {
     public static void run() {
-        Senha senha = new Senha();
+        Password senha = new Password();
         
         boolean senhaCerta = false;
         while(!senhaCerta){

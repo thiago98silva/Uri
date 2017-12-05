@@ -13,7 +13,7 @@ import java.util.Scanner;
  */
 public class Uri1045 {
     public static void run() {
-      DefinirTriangulo define = new DefinirTriangulo();
+      TriangleDefine define = new TriangleDefine();
       Scanner input = new Scanner(System.in);    
       float a = input.nextFloat();
       float b = input.nextFloat();

@@ -9,7 +9,7 @@ package Uri1960;
  *
  * @author thiago98.silva
  */
-public class NumerosRomanos {
+public class RomanNumbers {
      public String getRomanos(String numeroS){
         String mm[] = {"M","MM","MMM"};
         String cc[] = {"C","CC","CCC","CD","D","DC","DCC","DCCC","CM"};

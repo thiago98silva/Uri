@@ -13,7 +13,7 @@ import java.util.Scanner;
  */
 public class Uri1142 {
     public static void run() {
-        Pum pum = new Pum();
+        SequenceGenerator pum = new SequenceGenerator();
     
         Scanner input = new Scanner(System.in);
         int numero = input.nextInt();

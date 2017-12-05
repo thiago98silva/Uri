@@ -13,7 +13,7 @@ import java.util.Scanner;
  */
 public class Uri1960 {
     public static void run() {
-        NumerosRomanos numerosRomanos = new NumerosRomanos();
+        RomanNumbers numerosRomanos = new RomanNumbers();
         
         System.out.println("Digite um número");
         Scanner input = new Scanner(System.in);

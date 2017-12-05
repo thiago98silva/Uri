@@ -11,7 +11,7 @@ import java.util.Arrays;
  *
  * @author thiago98.silva
  */
-public class ArraySort {
+public class SortArray {
     
     public int[] sortArray(int i1, int i2, int i3){
      int[] numbers = new int[] {i1, i2, i3};
